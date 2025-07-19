@@ -2,10 +2,10 @@ namespace OrderManagement.Domain.Entities;
 
 public class OrderItem
 {
-    public Guid id { get; set; }
-    public string product_code { get; set; }
-
-    public int quantity { get; set; }
-
-    public decimal unit_price { get; set; }
+     public Guid Id { get; set; }
+    public string ProductCode { get; set; } = "";
+    public string ProductName { get; set; } = "";
+    public int Quantity { get; set; }
+    public decimal UnitPrice { get; set; }
+    public decimal TotalPrice => Quantity * UnitPrice;
 }

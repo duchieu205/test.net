@@ -2,10 +2,9 @@
 
 public class Product
 {
-    public Guid id { get; set; }
-    public string product_code { get; set; }
-    public string name { get; set; }
-    public decimal price { get; set; }
-
-    public string unit { get; set; }
+    public Guid Id { get; set; }
+    public string ProductCode { get; set; } = "";
+    public string Name { get; set; } = "";
+    public decimal Price { get; set; }
+    public string Unit { get; set; } = "";
 }

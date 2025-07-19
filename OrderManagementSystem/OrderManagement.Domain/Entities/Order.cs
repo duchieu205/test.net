@@ -1,26 +1,23 @@
+using System.Linq;
 namespace OrderManagement.Domain.Entities;
+
 
 
 public class Order
 {
-    public Guid id { get; set; }
-    public string customer_name { get; set; }
-
-    public decimal total_amount { get; private set; }
-
-    public decimal vat { get; private set; }
-
-    public decimal grand_total { get; private set; }
-
-    public DateTime create_at { get; set; } = DateTime.UtcNow;
-
+     public Guid Id { get; set; }
+    public string CustomerName { get; set; } = "";
     public List<OrderItem> Items { get; set; } = new();
+    public decimal TotalAmount { get; private set; }
+    public decimal VAT { get; private set; }
+    public decimal GrandTotal { get; private set; }
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-    public void calculate()
+    public void CalculateTotals()
     {
-        total_amount = Items.sum(x => x.quantity * x.unit_price);
-        vat = total_amount * 0.10m;
-        grand_total = total_amount + vat;
+        TotalAmount = Items.Sum(i => i.Quantity * i.UnitPrice);
+        VAT = TotalAmount * 0.1m;
+        GrandTotal = TotalAmount + VAT;
     }
 
 }
