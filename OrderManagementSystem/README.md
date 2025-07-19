@@ -21,9 +21,13 @@ Hệ thóng quản lí đơn hàng với kiến trúc **Clean Architechture + DD
 
 1. Clone source code
 - git clone https://github.com/duchieu205/test.net
-- cd OrderManagement System
+- cd OrderManagementSystem
 
 2. Khởi tạo database
+- Trong file appsettings.json :
+ "ConnectionStrings": {
+    "Default": "server=127.0.0.1;port=3306;database=your_database;user=root;password="
+  }
 - dotnet ef database update -p OrderManagement.Infrastructure -s OrderManagement.API
 
 3. Chạy dự án

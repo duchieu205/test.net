@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+GcPWiKPv/A=",
+  "dgSpecHash": "26nXDztIL+4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hieu PC\\Documents\\c#\\OrderManagementSystem\\OrderManagement.API\\OrderManagement.API.csproj",
   "expectedPackageFiles": [
@@ -11,8 +11,8 @@
     "C:\\Users\\Hieu PC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Hieu PC\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\Hieu PC\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\Hieu PC\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\9.0.0-preview.4.24267.6\\microsoft.aspnetcore.jsonpatch.9.0.0-preview.4.24267.6.nupkg.sha512",
-    "C:\\Users\\Hieu PC\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\9.0.0-preview.4.24267.6\\microsoft.aspnetcore.mvc.newtonsoftjson.9.0.0-preview.4.24267.6.nupkg.sha512",
+    "C:\\Users\\Hieu PC\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.8\\microsoft.aspnetcore.jsonpatch.8.0.8.nupkg.sha512",
+    "C:\\Users\\Hieu PC\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.8\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.8.nupkg.sha512",
     "C:\\Users\\Hieu PC\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Hieu PC\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\Hieu PC\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
