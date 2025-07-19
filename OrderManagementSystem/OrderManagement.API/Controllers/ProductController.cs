@@ -18,6 +18,8 @@ public class ProductController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create(Product product)
     {
+        if (!ModelState.IsValid)
+        return BadRequest(ModelState);
         product.Id = Guid.NewGuid();
         _db.Products.Add(product);
         await _db.SaveChangesAsync();

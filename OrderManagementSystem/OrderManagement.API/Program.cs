@@ -5,6 +5,7 @@ using MediatR;
 using FluentValidation;
 using OrderManagement.Application.Commands;
 
+using OrderManagement.API.Validators;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -23,7 +24,7 @@ builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssemblyContaining<CreateProductHandler>());
 
 
-builder.Services.AddValidatorsFromAssemblyContaining<CreateProductHandler>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateProductValidator>();
 
 var app = builder.Build();
 
